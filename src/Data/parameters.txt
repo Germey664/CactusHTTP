@@ -1,0 +1,3 @@
+Port:8080
+Default file:index.html
+Default directory:D:\FILE\JAVA\programs\Server\GermySpaceEnginers
