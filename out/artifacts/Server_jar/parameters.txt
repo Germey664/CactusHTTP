@@ -1,3 +1,0 @@
-Port:2100
-Default file:index.html
-Default directory:D:/файлы/web сервер

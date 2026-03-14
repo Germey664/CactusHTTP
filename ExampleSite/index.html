@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Привет</title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            margin: 40px;
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+            background: #f5f5f5;
+            color: #222;
+        }
+        .box {
+            max-width: 500px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        h1 {
+            margin-top: 0;
+            font-weight: 400;
+            font-size: 2em;
+        }
+        hr {
+            border: none;
+            border-top: 1px solid #eee;
+            margin: 20px 0;
+        }
+        .small {
+            color: #777;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Привет!</h1>
+        <p>Это пример простой страницы.</p>
+        <p>Сервер работает.</p>
+        <hr>
+        <div class="small">
+            <span id="date"></span>
+        </div>
+    </div>
+
+    <script>
+        // просто дата
+        let d = new Date();
+        document.getElementById('date').innerText = d.toLocaleDateString('ru-RU');
+    </script>
+</body>
+</html>
